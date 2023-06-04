@@ -38,5 +38,5 @@ int main()
 	vector<int>res = bfsOfGraph(n,adj);
 	for(auto x : res)
 		cout<<x<<" ";
-	cout<<endl;
+	
 }
