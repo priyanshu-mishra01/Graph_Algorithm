@@ -1,10 +1,8 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
-
-// } Driver Code Ends
 class Solution {
   public:
+    // BFS Code
     bool bfs(int node, vector<int>adj[], vector<int>&vis) {
         // {node, parent}
         queue<pair<int,int>>q;
@@ -38,7 +36,6 @@ class Solution {
     }
 };
 
-//{ Driver Code Starts.
 int main() {
     int tc;
     cin >> tc;
